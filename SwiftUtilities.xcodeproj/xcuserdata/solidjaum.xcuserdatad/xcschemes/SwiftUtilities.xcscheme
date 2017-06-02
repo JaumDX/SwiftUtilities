@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7560E0EF1EE1E36900197F3A"
+               BlueprintIdentifier = "754BFAEB1EE1D5E300066A01"
                BuildableName = "SwiftUtilities.framework"
                BlueprintName = "SwiftUtilities"
                ReferencedContainer = "container:SwiftUtilities.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7560E0EF1EE1E36900197F3A"
+            BlueprintIdentifier = "754BFAEB1EE1D5E300066A01"
             BuildableName = "SwiftUtilities.framework"
             BlueprintName = "SwiftUtilities"
             ReferencedContainer = "container:SwiftUtilities.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7560E0EF1EE1E36900197F3A"
+            BlueprintIdentifier = "754BFAEB1EE1D5E300066A01"
             BuildableName = "SwiftUtilities.framework"
             BlueprintName = "SwiftUtilities"
             ReferencedContainer = "container:SwiftUtilities.xcodeproj">
