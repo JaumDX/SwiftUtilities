@@ -21,8 +21,9 @@ public class UserFirstAcess: UserDefaults {
         if !launchedBefore {
             window.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: storyboardIdentifier)
             UserDefaults.standard.set(true, forKey: "launchedBefore")
-            
         }
     }
-
+    
 }
+
+

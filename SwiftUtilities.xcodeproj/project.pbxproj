@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		754BFAF11EE1D5E300066A01 /* SwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 754BFAEF1EE1D5E300066A01 /* SwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754BFAFC1EE1DA7B00066A01 /* UserFirstAcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BFAFB1EE1DA7B00066A01 /* UserFirstAcess.swift */; };
+		7560E1141EE1F27C00197F3A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E1131EE1F27C00197F3A /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		754BFAEF1EE1D5E300066A01 /* SwiftUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUtilities.h; sourceTree = "<group>"; };
 		754BFAF01EE1D5E300066A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754BFAFB1EE1DA7B00066A01 /* UserFirstAcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFirstAcess.swift; sourceTree = "<group>"; };
+		7560E1131EE1F27C00197F3A /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				754BFAEF1EE1D5E300066A01 /* SwiftUtilities.h */,
 				754BFAF01EE1D5E300066A01 /* Info.plist */,
 				754BFAFB1EE1DA7B00066A01 /* UserFirstAcess.swift */,
+				7560E1131EE1F27C00197F3A /* Image.swift */,
 			);
 			path = SwiftUtilities;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7560E1141EE1F27C00197F3A /* Image.swift in Sources */,
 				754BFAFC1EE1DA7B00066A01 /* UserFirstAcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
