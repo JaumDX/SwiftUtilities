@@ -25,14 +25,14 @@ public class Image: NSObject {
     
     
     //Cria uma image com uma açao.
-    public static func createWithAction(x: Double, y: Double, width: Double, height: Double, image: UIImage, contentMode: UIViewContentMode, selector: Selector, event: UIControlEvents ) -> UIImageView{
+    public static func createWithAction(x: Double, y: Double, width: Double, height: Double, image: UIImage, contentMode: UIViewContentMode, selector: Selector) -> UIImageView{
         
         
         let view = UIImageView.init(frame: CGRect(x: x, y: y, width: width, height: height))
         view.image = image
         view.contentMode = contentMode
         
-        view.target(forAction: selector, withSender: event)
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: selector))
         
         return view
 
